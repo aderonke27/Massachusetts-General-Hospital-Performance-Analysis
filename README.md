@@ -5,12 +5,12 @@ A data analysis project for Massachusettes General Hospital, conducted as part o
 
 ## Table of Contents
 1. [Introduction](#introduction)  
-2. [Project Description](#project-description)  
+2. [Project Description](#project-description)
 3. [Project Aim](#project-aim)  
 4. [About the Dataset](#about-the-dataset)
 5. [Tools Used](#tools-used)  
 6. [Importing the Dataset](#importing-the-dataset)  
-7. [Data Cleaning and Transformation](#data-cleaning-and-transformation)  
+7. [Data Cleaning and Transformation](#data-cleaning-and-transformation)
 8. [Data Modeling](#data-modeling)  
 9. [Data Analysis](#data-analysis)  
 10. [Data Visualization](#data-visualization)  
