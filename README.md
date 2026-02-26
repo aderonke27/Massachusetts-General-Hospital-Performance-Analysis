@@ -1,4 +1,4 @@
-# Massachusettes-General-Hospital-Analysis
+# Massachusettes-General-Hospital-Performace Analysis
 
 ## Description
 A data analysis project for Massachusettes General Hospital, conducted as part of the STC 6-Week Data Analyst Mentorship. The project includes data cleaning, analysis, visualization, and actionable recommendations.
