@@ -1,4 +1,7 @@
 # Massachusettes General Hospital Performace Analysis
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Domain](https://img.shields.io/badge/Domain-Healthcare%20Analytics-blue)
 
 ## Description
 A data analysis project for Massachusettes General Hospital, conducted as part of the STC 6-Week Data Analyst Mentorship. The project includes data cleaning, analysis, visualization, and actionable recommendations.
