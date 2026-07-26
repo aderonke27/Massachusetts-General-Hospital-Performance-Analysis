@@ -70,9 +70,16 @@ The datasets were imported as a CSV file into Excel for cleaning. Duplicate copy
 * Standardized entries in the state headquarter column in the payers table
 
 ## Data Modeling
-* Created a measure called average lenght of stay
-* Created a new column with cleaned encounter date
-* Extracted the years in the date column into a new column
+<img width="1592" height="805" alt="Screenshot (192)" src="https://github.com/user-attachments/assets/1fa8d1f6-dd74-41cd-921b-87ce6a6a8f17" />
+# Tables in the model
+* procedures — one row per medical procedure performed (cost, code, description, which encounter/patient it belongs to)
+* patients — one row per patient (demographics: address, birth date, ethnicity, city, etc.)
+* encounters — one row per patient visit/encounter (cost, age at encounter, encounter class, insurance %, etc.)
+* payers — one row per insurance company/payer (name, address, state)
+# How they're related (reading the cardinality symbols)
+* procedures → patients (many-to-one) - Each patient can have many procedures, but each procedure row belongs to exactly one patient. This is a classic "many" (transaction-level) table pointing up to a "one" (dimension) table.
+* patients → encounters (one-to-many) - One patient can have many encounters (visits) over time, but each encounter belongs to one patient. Note the little arrow icon on the relationship line — that indicates the filter direction (cross-filter direction), meaning filtering on patients will filter encounters.
+* payers → encounters (one-to-many) - One insurance payer can be associated with many encounters, but each encounter has one payer. Same structure as above — payers is a "dimension" table, encounters is the "fact" table here.
 
 ## Data Analysis
 Key Performance Indicators (KPIs) analyzed:
