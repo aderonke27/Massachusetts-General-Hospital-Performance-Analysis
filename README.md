@@ -1,4 +1,4 @@
-# Massachusettes General Hospital Performace Analysis
+# Massachusetts General Hospital Performance Analysis
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Domain](https://img.shields.io/badge/Domain-Healthcare%20Analytics-blue)
